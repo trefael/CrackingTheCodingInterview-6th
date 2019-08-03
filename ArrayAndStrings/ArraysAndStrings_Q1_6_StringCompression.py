@@ -26,6 +26,6 @@ def StringCompression(myString):
 
 
 if __name__ == '__main__':
-    print(StringCompression("aabbcccccaaa"))
-    print(StringCompression("aAbBcCcCccaA"))
+    print(StringCompression("aabbcccccaaa"))   # Output- a2b1c5a3
+    print(StringCompression("aAbBcCcCccaA"))   # Output- aAbBcCcCccaA
 
