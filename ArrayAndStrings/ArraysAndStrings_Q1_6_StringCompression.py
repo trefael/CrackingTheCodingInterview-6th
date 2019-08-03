@@ -9,24 +9,14 @@ Assumptions:
 3. input between a-z
 '''
 
+import json
+
 def StringCompression(myString1):
 
-    mydic = {}
-
-    for k in range(myString1):
-        {
-          mydic[k] = y
-        }
+    pass
 
 
-
-    return x
 
 if __name__ == '__main__':
-    #Test 1.5:
-    print(IsOneAway('pale', 'ple'))   # True
-    print(IsOneAway('pales', 'pale')) # True
-    print(IsOneAway('pales', 'paale')) # False
-    print(IsOneAway('pale', 'bale'))  # True
-    print(IsOneAway('pale', 'bake'))  # False
-    print(IsOneAway('Tact','Coa'))   # False
+    #Test 1.6:
+    print(StringCompression("aabbcccccaaa"))
